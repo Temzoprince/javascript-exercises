@@ -1,5 +1,10 @@
 const sumAll = function(start, finish) {
     let sum = 0;
+
+    if ((start < 0) || (finish < 0)) {
+        return "ERROR";
+    }
+
     if (start < finish) {
         for (i = start; i <= finish; i++) {
             sum += i;
