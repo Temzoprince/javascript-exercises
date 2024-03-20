@@ -1,7 +1,5 @@
 const reverseString = function(string) {
-    stringArray = string.split("");
-    let reversedString = stringArray.toReversed().join("");
-    return reversedString;
+    return string.split("").reverse().join("");
 };
 
 // Do not edit below this line
