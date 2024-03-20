@@ -1,7 +1,7 @@
 const sumAll = function(start, finish) {
     let sum = 0;
 
-    if ((start < 0) || (finish < 0)) {
+    if ((start < 0) || (finish < 0) || (!(typeof start === "number")) || (!(typeof finish === "number"))) {
         return "ERROR";
     }
 
